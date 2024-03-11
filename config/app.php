@@ -55,9 +55,13 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost'),
+    // 'url' => env('APP_URL', 'http://localhost'),
 
-    'asset_url' => env('ASSET_URL'),
+    // 'asset_url' => env('ASSET_URL'),
+
+    'url' => env('APP_URL', 'https://radiant-ravine-51994-778484d48b4d.herokuapp.com/t'),
+
+    'asset_url' => env('https://radiant-ravine-51994-778484d48b4d.herokuapp.com/'),
 
     /*
     |--------------------------------------------------------------------------
